@@ -25,6 +25,7 @@ app.get('/about', (req, res) => {
 app.get('/post', (req, res) => {
   res.render('post');
 });
+
 const port = 3000;
 
 app.listen(port, () => {
